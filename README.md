@@ -39,3 +39,9 @@ A scalable booking platform simulating Airbnb's core features, built with Django
 - **Property Listings**: Hosts create/edit listings; guests search/filter.  
 - **Booking System**: Date availability checks, payment integration.  
 - **Reviews**: Guests leave ratings; hosts respond.  
+
+## 🔒 API Security  
+- **JWT Authentication**: Secure user sessions.  
+- **Rate Limiting**: Prevent abuse (e.g., 100 requests/minute).  
+- **OAuth2**: Optional "Login with Google/Facebook".  
+- **SQL Injection Protection**: Django ORM escapes queries.  
