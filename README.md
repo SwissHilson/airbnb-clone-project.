@@ -21,3 +21,16 @@ A scalable booking platform simulating Airbnb's core features, built with Django
 - **DevOps Engineer:** Manages CI/CD, cloud deployment, and monitoring.  
 - **QA Engineer:** Tests APIs, reviews security, validates edge cases.  
 
+## 🗄️ Database Design  
+### Key Entities:  
+1. **Users**  
+   - `id`, `email`, `password_hash`, `role` (host/guest)  
+   - *Relationships*: One-to-many → `Properties`, `Bookings`.  
+
+2. **Properties**  
+   - `id`, `title`, `price`, `location`, `host_id` (FK to Users)  
+   - *Relationships*: Many-to-many → `Bookings`.  
+
+3. **Bookings**  
+   - `id`, `guest_id` (FK to Users), `property_id` (FK to Properties), `check_in`, `check_out`  
+
