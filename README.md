@@ -45,3 +45,8 @@ A scalable booking platform simulating Airbnb's core features, built with Django
 - **Rate Limiting**: Prevent abuse (e.g., 100 requests/minute).  
 - **OAuth2**: Optional "Login with Google/Facebook".  
 - **SQL Injection Protection**: Django ORM escapes queries.  
+
+## ⚙️ CI/CD Pipeline  
+- **GitHub Actions**: Auto-run unit tests on push.  
+- **Docker**: Build containerized images for deployment.  
+- **AWS/Heroku**: Deploy to cloud platforms.  
