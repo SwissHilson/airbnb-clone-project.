@@ -34,3 +34,8 @@ A scalable booking platform simulating Airbnb's core features, built with Django
 3. **Bookings**  
    - `id`, `guest_id` (FK to Users), `property_id` (FK to Properties), `check_in`, `check_out`  
 
+## ✨ Feature Breakdown  
+- **User Management**: Signup/login, role-based permissions (host/guest).  
+- **Property Listings**: Hosts create/edit listings; guests search/filter.  
+- **Booking System**: Date availability checks, payment integration.  
+- **Reviews**: Guests leave ratings; hosts respond.  
